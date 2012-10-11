@@ -1,4 +1,4 @@
-namespace AzurePatterns
+namespace AzurePatterns.SqlAzure
 {
     using System;
     using System.Collections.Generic;
@@ -11,6 +11,7 @@ namespace AzurePatterns
     {
         private static string connectionString;
 
+        // TODO: Unit of Work implementation.
         private static string ConnectionString
         {
             get

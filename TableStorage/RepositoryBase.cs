@@ -1,6 +1,8 @@
-namespace AzurePatterns
+namespace AzurePatterns.TableStorage
 {
     using System;
+
+    using AzurePatterns.Interfaces;
 
     using Microsoft.WindowsAzure.StorageClient;
 

@@ -1,6 +1,8 @@
-namespace AzurePatterns
+namespace AzurePatterns.Interfaces
 {
     using System.Collections.Generic;
+
+    using AzurePatterns.Entities;
 
     public interface IEntityRepository : IRepository<Entity>
     {

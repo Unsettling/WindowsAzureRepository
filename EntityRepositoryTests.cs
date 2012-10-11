@@ -1,5 +1,8 @@
 namespace AzurePatterns
 {
+    using AzurePatterns.Repositories;
+    using AzurePatterns.TableStorage;
+
     public class EntityRepositoryTests
     {
         // NOTE: Windows Azure changes a lot with each release. 

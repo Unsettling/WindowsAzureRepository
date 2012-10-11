@@ -1,7 +1,11 @@
-namespace AzurePatterns
+namespace AzurePatterns.Repositories
 {
     using System.Collections.Generic;
     using System.Linq;
+
+    using AzurePatterns.Entities;
+    using AzurePatterns.Interfaces;
+    using AzurePatterns.TableStorage;
 
     using Microsoft.WindowsAzure.StorageClient;
 

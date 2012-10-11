@@ -1,4 +1,4 @@
-﻿namespace AzurePatterns
+﻿namespace AzurePatterns.Entities
 {
     using Microsoft.WindowsAzure.StorageClient;
 

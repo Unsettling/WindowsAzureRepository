@@ -48,17 +48,17 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands.cs" />
-    <Compile Include="Entity.cs" />
-    <Compile Include="EntityRepository.cs" />
+    <Compile Include="SqlAzure\Commands.cs" />
+    <Compile Include="Entities\Entity.cs" />
+    <Compile Include="Repositories\EntityRepository.cs" />
     <Compile Include="EntityRepositoryTests.cs" />
-    <Compile Include="EntitySpecification.cs" />
-    <Compile Include="IEntityRepository.cs" />
-    <Compile Include="IRepository.cs" />
-    <Compile Include="IUnitOfWork.cs" />
-    <Compile Include="RepositoryBase.cs" />
+    <Compile Include="Repositories\EntitySpecification.cs" />
+    <Compile Include="Interfaces\IEntityRepository.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Interfaces\IUnitOfWork.cs" />
+    <Compile Include="TableStorage\RepositoryBase.cs" />
     <Compile Include="Specification.cs" />
-    <Compile Include="TableStorageContext.cs" />
+    <Compile Include="TableStorage\TableStorageContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

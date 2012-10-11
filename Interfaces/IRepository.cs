@@ -1,4 +1,4 @@
-namespace AzurePatterns
+namespace AzurePatterns.Interfaces
 {
     using System.Collections.Generic;
 

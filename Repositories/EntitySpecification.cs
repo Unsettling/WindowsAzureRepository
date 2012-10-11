@@ -1,7 +1,9 @@
-namespace AzurePatterns
+namespace AzurePatterns.Repositories
 {
     using System;
     using System.Linq.Expressions;
+
+    using AzurePatterns.Entities;
 
     // NOTE: Although these deserve a file to themselves I would move them into
     // the Repository implementation where they are used for convienience.
